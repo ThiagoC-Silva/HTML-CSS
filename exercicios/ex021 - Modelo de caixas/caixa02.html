@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-color: #7ce1fa;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: #014042;;
+            padding: 4px;
+            text-align: right;
+            box-shadow: 2px 2px 4px 1px #00181a3f;
+
+            /*box-shadow: horizontal vertical blur spread color */
+        }
+
+        nav > a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-right: 50px;
+        }
+
+        nav >a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: #ffffff;
+            padding: 10px 10px 39.920px 10px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 2px 3px 5px 1px #53535336 ;
+        }
+
+        article {
+            background-color: #d3d3d3;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: #7ce1fa;
+        }
+
+        footer {
+            background-color: #014042;
+            color: #ffffff;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+
+        div {
+            background-color: #ffffff;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a> <a href="#">link</a> <a href="#">link</a> <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Tecnologia</h2>
+        </section>
+        <section id="noticias">  
+        <article>
+            <h2>Notícia sobre o Piauí</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae facilis maiores quo rerum, cumque, repellat libero doloremque eum non quia iure pariatur sed blanditiis vel. Animi ex deleniti facere odio?</p>
+            <aside>
+                <p>Artigo cosntruído por Thiago C. Silva.</p>
+            </aside>
+        </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por TCode.</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
